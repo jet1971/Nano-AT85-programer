@@ -448,12 +448,12 @@
   )
 
   (symbol (lib_id "Device:C") (at 64.77 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid a3127a85-1896-404a-897b-30a2206361d4)
     (property "Reference" "C1" (id 0) (at 68.58 105.4099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 68.58 107.9499 0)
+    (property "Value" "100n (104)" (id 1) (at 58.42 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (id 2) (at 65.7352 110.49 0)
@@ -497,7 +497,7 @@
     (property "Reference" "C2" (id 0) (at 173.99 110.8709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_Polarized" (id 1) (at 173.99 113.4109 0)
+    (property "Value" "10uF" (id 1) (at 173.99 113.4109 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (id 2) (at 171.1452 116.84 0)
@@ -566,10 +566,10 @@
       (reference "A1") (unit 1) (value "Arduino_Nano_v2.x") (footprint "Module:Arduino_Nano")
     )
     (path "/a3127a85-1896-404a-897b-30a2206361d4"
-      (reference "C1") (unit 1) (value "C") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C1") (unit 1) (value "100n (104)") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
     )
     (path "/f0543d83-eb30-4cb5-81ee-61ddd1b78eb5"
-      (reference "C2") (unit 1) (value "C_Polarized") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/ac3034ee-3ed9-41d5-b548-d47a43d4e9c1"
       (reference "U1") (unit 1) (value "ATtiny85V-10P") (footprint "Package_DIP:DIP-8_W7.62mm")
